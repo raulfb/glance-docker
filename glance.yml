@@ -1,0 +1,72 @@
+theme:
+  background-color: 232 23 18
+  contrast-multiplier: 1.2
+  primary-color: 220 83 75
+  positive-color: 105 48 72
+  negative-color: 351 74 73
+pages:
+  - name: Home
+    columns:
+      - size: small
+        widgets:
+          - type: calendar
+          - type: iframe
+            source: https://www.flashscore.es/futbol/espana/primera-rfef-grupo-1/clasificacion/#/A9y7Tmnf/table/overall
+            height: 400
+          - type: twitch-channels
+            channels:
+              - midudev
+              - s4vitaar
+              - cyberforgedchannel
+              - elpinguinodemario
+              - codelytv
+
+      - size: full
+        widgets:
+          - type: hacker-news
+
+          - type: videos
+            channels:
+              - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
+              - UCv6J_jJa8GJqFwQNgNrMuww # ServeTheHome
+              - UCOk-gHyjcWZNj3Br4oxwh0A # Techno Tim
+              - UCbRP3c757lWg9M-U7TyEkXA # theo 
+
+          - type: videos
+            channels:
+              - UC3aj05GEEyzdOqYM5FLSFeg # midudev
+              - UCOTko-zmnQTcOxSRdg5_uOQ # dotcsv
+              - UC_seWBB7USKanhHB4KbWXKw # mouredev
+              - UCrBzBOMcUVV8ryyAU_c6P5g # pelardo nerd
+              - UCMn28O1sQGochG94HdlthbA # fatz code
+              - UCUZcGnEUt4KNXpo5dJbK5fA # Me dicen tecno
+
+
+
+          - type: reddit
+            subreddit: selfhosted
+          
+          - type: lobsters
+            sort-by: hot
+            tags:
+              - security
+              - linux
+            limit: 15
+            collapse-after: 5
+
+      - size: small
+        widgets:
+          - type: weather
+            location: Viveiro, Spain
+          - type: weather
+            location: Neda, Spain
+
+          - type: markets
+            markets:
+              - symbol: BTC-EUR
+                name: Bitcoin
+              - symbol: ADA-EUR
+                name: Cardano
+              - symbol: ETH-EUR
+                name: Ethereum
+            
