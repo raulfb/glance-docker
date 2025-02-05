@@ -25,14 +25,14 @@ pages:
         widgets:
           - type: hacker-news
 
-          - type: videos
+          - type: videos # Programación/IT en inglés
             channels:
               - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
               - UCv6J_jJa8GJqFwQNgNrMuww # ServeTheHome
               - UCOk-gHyjcWZNj3Br4oxwh0A # Techno Tim
               - UCbRP3c757lWg9M-U7TyEkXA # theo 
 
-          - type: videos
+          - type: videos # Programación en español
             channels:
               - UC3aj05GEEyzdOqYM5FLSFeg # midudev
               - UCOTko-zmnQTcOxSRdg5_uOQ # dotcsv
@@ -40,8 +40,8 @@ pages:
               - UCrBzBOMcUVV8ryyAU_c6P5g # pelardo nerd
               - UCMn28O1sQGochG94HdlthbA # fatz code
               - UCUZcGnEUt4KNXpo5dJbK5fA # Me dicen tecno
-
-
+              - UCv85NiROLKddHa0fBATwTzw # Victor Robles WEB
+              - UCP8dTCaLNJFxfklb_GNqe6A # Atareao con Linux
 
           - type: reddit
             subreddit: selfhosted

@@ -1,6 +1,6 @@
 # Glance
 
-Implementación dockerizada de Glance, una herramienta que proporciona una interfaz de usuario configurable para mostrar información de diversas fuentes. Puedes encontrar el proyecto original en [Glance](https://github.com/glanceapp/glance).
+Mi mplementación dockerizada de Glance, una herramienta que proporciona una interfaz de usuario configurable para mostrar información de diversas fuentes. Puedes encontrar el proyecto original en [Glance](https://github.com/glanceapp/glance).
 
 ## Estructura del Proyecto
 
